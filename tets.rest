@@ -1,0 +1,14 @@
+###
+
+POST http://localhost:8000/api/product/add-new-product
+Content-Type: application/json
+
+{
+    "name" : "Ale Ale",
+    "price" : "20.000",
+    "amount" : 24,
+    "expired" : "30 januari 2023"
+}
+
+###
+GET http://localhost:8000/api/product/products
